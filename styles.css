@@ -1,0 +1,86 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.feature-card {
+    background: #eef;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+    max-width: 350px;
+}
+
+/* CTA Button */
+.cta {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+}
+
+/* Pricing Section */
+.pricing {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f9f9f9;
+}
+
+.pricing-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pricing-card {
+    background: #eef;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 220px;
+    flex: 1;
+    max-width: 300px;
+}
+
+/* Custom Pricing Section */
+.custom-pricing {
+    display: block; /* Ensures visibility */
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .features, .pricing-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
