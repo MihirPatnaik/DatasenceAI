@@ -3,138 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DataSense AI - AI-Powered Data Labeling</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: #0a74da;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
-        }
-        .cta {
-            background: #f4f4f4;
-            padding: 20px;
-            text-align: center;
-            margin-top: 20px;
-        }
-        .cta button {
-            background: #0a74da;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        .pricing {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 15px;
-            padding: 20px;
-        }
-        .pricing div {
-            background: #eef;
-            padding: 20px;
-            text-align: center;
-            border-radius: 8px;
-        }
-        .features {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-            padding: 20px;
-        }
-        .features li {
-            flex: 1 1 300px;
-            list-style: none;
-            background: #eef;
-            padding: 15px;
-            border-radius: 8px;
-            text-align: center;
-        }
-        footer {
-            background: #222;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
-        }
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            header { padding: 15px; font-size: 18px; }
-            .cta { padding: 15px; }
-            .cta button { font-size: 14px; padding: 10px; }
-            .pricing { grid-template-columns: 1fr; }
-            .features { flex-direction: column; align-items: center; }
-        }
-    </style>
+    <title>DataSense AI</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>DataSense AI</h1>
-        <p>AI-Powered Data Labeling for Retail & E-Commerce</p>
-    </header>
 
-    <div class="container">
-        <h2>Why High-Quality Data Labeling is Critical?</h2>
-        <p>Managing large-scale data annotation is time-consuming, costly, and resource-intensive. Businesses rely on structured, high-quality labeled data to improve AI models for product search, recommendations, and customer insights.</p>
-    </div>
+    <section class="features">
+        <div class="feature-card"><strong>Product Categorization</strong> - Accurate product tagging for better discoverability.</div>
+        <div class="feature-card"><strong>Image Annotation</strong> - AI-powered visual search with bounding boxes & segmentation.</div>
+        <div class="feature-card"><strong>Text & Sentiment Analysis</strong> - Customer feedback insights for engagement.</div>
+        <div class="feature-card"><strong>AI-Assisted Labeling</strong> - Reducing manual work with high accuracy.</div>
+        <div class="feature-card"><strong>Enterprise-Grade QC</strong> - Multi-layer validation & error detection.</div>
+    </section>
 
     <div class="cta">
-        <h2>Our AI-Powered Data Labeling Solution</h2>
-        <ul class="features">
-            <li><strong>Product Categorization</strong> - Accurate product tagging for better discoverability.</li>
-            <li><strong>Image Annotation</strong> - AI-powered visual search with bounding boxes & segmentation.</li>
-            <li><strong>Text & Sentiment Analysis</strong> - Customer feedback insights for engagement.</li>
-            <li><strong>AI-Assisted Labeling</strong> - Reducing manual work with high accuracy.</li>
-            <li><strong>Enterprise-Grade QC</strong> - Multi-layer validation & error detection.</li>
-        </ul>
-        <button>Get a Free Consultation</button>
+        <button class="cta-button">Get a Free Consultation</button>
     </div>
 
-    <div class="container">
+    <section class="pricing">
         <h2>Flexible & Cost-Effective Pricing</h2>
-        <div class="pricing">
-            <div>
+        <div class="pricing-container">
+            <div class="pricing-card">
                 <h3>Product Categorization</h3>
                 <p>$0.10 - $0.30 per product</p>
             </div>
-            <div>
+            <div class="pricing-card">
                 <h3>Image Annotation</h3>
                 <p>$0.15 - $0.50 per image</p>
             </div>
-            <div>
+            <div class="pricing-card">
                 <h3>Text Sentiment Analysis</h3>
                 <p>$0.05 - $0.10 per word</p>
             </div>
-            <div>
+            <div class="pricing-card">
                 <h3>Bulk AI Labeling</h3>
                 <p>Starts at $500 per dataset</p>
             </div>
         </div>
-        <p>💡 Custom Pricing Available for Large Volumes.</p>
-    </div>
+        
+        <div class="custom-pricing">
+            <span>🟡 Custom Pricing Available for Large Volumes.</span>
+        </div>
+    </section>
 
-    <div class="cta">
-        <h2>📞 Let’s Discuss Your Needs</h2>
-        <p>Would you be open to a quick call this week to explore how we can optimize your AI data labeling process?</p>
-        <button>Schedule a Call</button>
-    </div>
-
-    <footer>
-        <p>Contact Us: info@datasenseai.com | +1-234-567-890</p>
-        <p>&copy; 2025 DataSense AI. All Rights Reserved.</p>
-    </footer>
 </body>
 </html>
