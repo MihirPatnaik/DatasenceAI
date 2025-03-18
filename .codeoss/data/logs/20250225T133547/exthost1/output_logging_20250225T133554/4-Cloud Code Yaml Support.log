@@ -1,0 +1,2 @@
+[Error - 2:05:14 PM] Failed to load entities from /home/mihir_patnaik/node_modules/@types/prop-types/package.json: Error: ENOENT: no such file or directory, open '/home/mihir_patnaik/node_modules/@types/prop-types/package.json'
+[Error - 2:19:01 PM] Failed to load entities from /home/mihir_patnaik/node_modules/.vite/deps_temp_d0b529a7/_metadata.json: Error: ENOENT: no such file or directory, open '/home/mihir_patnaik/node_modules/.vite/deps_temp_d0b529a7/_metadata.json'

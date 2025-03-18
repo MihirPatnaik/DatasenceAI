@@ -1,0 +1,2 @@
+[Error - 11:25:23 PM] Failed to load entities from /home/mihir_patnaik/node_modules/.vite/deps_temp_48287b41/_metadata.json: Error: ENOENT: no such file or directory, open '/home/mihir_patnaik/node_modules/.vite/deps_temp_48287b41/_metadata.json'
+[Error - 11:25:27 PM] Failed to load entities from /home/mihir_patnaik/node_modules/.vite/deps_temp_929084c3/_metadata.json: Error: ENOENT: no such file or directory, open '/home/mihir_patnaik/node_modules/.vite/deps_temp_929084c3/_metadata.json'

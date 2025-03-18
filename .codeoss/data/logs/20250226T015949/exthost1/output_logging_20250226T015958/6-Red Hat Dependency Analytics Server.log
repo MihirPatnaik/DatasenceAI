@@ -1,0 +1,14 @@
+npm error code EJSONPARSE
+npm error path /home/mihir_patnaik/package.json
+npm error JSON.parse Unexpected non-whitespace character after JSON at position 691 (line 31 column 4) while parsing near "...ipt\": \"^5.4.5\"\n}\n  },\n  \"type\": \"commonj..."
+npm error JSON.parse Failed to parse JSON data.
+npm error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+npm error A complete log of this run can be found in: /home/mihir_patnaik/.npm/_logs/2025-02-26T02_15_56_890Z-debug-0.log
+[Warn  - 2:15:57 AM] Component Analysis Error: Error: Command failed: npm i --package-lock-only --prefix /home/mihir_patnaik
+npm error code EJSONPARSE
+npm error path /home/mihir_patnaik/package.json
+npm error JSON.parse Unexpected non-whitespace character after JSON at position 691 (line 31 column 4) while parsing near "...ipt\": \"^5.4.5\"\n}\n  },\n  \"type\": \"commonj..."
+npm error JSON.parse Failed to parse JSON data.
+npm error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+npm error A complete log of this run can be found in: /home/mihir_patnaik/.npm/_logs/2025-02-26T02_15_56_890Z-debug-0.log
+

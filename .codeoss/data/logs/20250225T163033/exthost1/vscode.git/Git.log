@@ -1,0 +1,184 @@
+2025-02-25 16:30:42.200 [info] [main] Log level: Info
+2025-02-25 16:30:42.200 [info] [main] Validating found git in: "git"
+2025-02-25 16:30:42.200 [info] [main] Using git "2.43.0" from "git"
+2025-02-25 16:30:42.200 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-25 16:30:42.200 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-25 16:30:42.200 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:30:42.205 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:30:42.205 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:30:42.210 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:30:42.210 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:30:42.214 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:30:42.214 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:30:42.219 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:30:42.219 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:30:42.224 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:30:42.224 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:30:42.229 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 16:30:42.229 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:30:42.233 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 16:30:42.233 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:30:42.238 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:30:42.238 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:30:42.243 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:30:42.243 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:30:42.248 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:30:42.248 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:30:42.253 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:30:42.253 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:30:42.258 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:30:42.258 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:30:42.259 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-25 16:36:36.852 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-25 16:36:36.852 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:36:45.881 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:36:45.881 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:36:47.216 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-25 16:36:47.216 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:37:12.534 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:37:12.534 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:37:19.058 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-25 16:37:19.058 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:38:43.711 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:38:43.711 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:38:50.919 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-25 16:38:50.919 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:43:17.047 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 16:43:17.047 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:43:17.055 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 16:43:17.055 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:43:17.062 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 16:43:17.063 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:43:18.131 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 16:43:18.132 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:43:18.143 [info] > git rev-parse --show-toplevel [0ms]
+2025-02-25 16:43:18.143 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:43:18.154 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:43:18.154 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:43:21.900 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/gopd/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/gopd/'
+2025-02-25 16:43:21.907 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/is-map/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/is-map/'
+2025-02-25 16:43:21.914 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/is-set/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/is-set/'
+2025-02-25 16:43:21.921 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/for-each/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/for-each/'
+2025-02-25 16:43:21.928 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/own-keys/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/own-keys/'
+2025-02-25 16:43:21.934 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/call-bind/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/call-bind/'
+2025-02-25 16:43:21.941 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/es-errors/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/es-errors/'
+2025-02-25 16:43:21.947 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/get-proto/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/get-proto/'
+2025-02-25 16:43:21.954 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/has-proto/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/has-proto/'
+2025-02-25 16:43:21.959 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/is-bigint/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/is-bigint/'
+2025-02-25 16:43:21.965 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/is-string/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/is-string/'
+2025-02-25 16:43:21.971 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/is-symbol/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/is-symbol/'
+2025-02-25 16:43:21.977 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/set-proto/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/set-proto/'
+2025-02-25 16:43:21.984 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/call-bound/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/call-bound/'
+2025-02-25 16:43:21.990 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/is-weakmap/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/is-weakmap/'
+2025-02-25 16:43:21.996 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/is-weakref/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/is-weakref/'
+2025-02-25 16:43:22.003 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/is-weakset/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/is-weakset/'
+2025-02-25 16:43:22.009 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/has-bigints/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/has-bigints/'
+2025-02-25 16:43:22.016 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/has-symbols/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/has-symbols/'
+2025-02-25 16:43:22.022 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/is-callable/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/is-callable/'
+2025-02-25 16:43:22.028 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/dunder-proto/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/dunder-proto/'
+2025-02-25 16:43:22.034 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/is-data-view/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/is-data-view/'
+2025-02-25 16:43:22.041 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/side-channel/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/side-channel/'
+2025-02-25 16:43:22.048 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/get-intrinsic/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/get-intrinsic/'
+2025-02-25 16:43:22.054 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/internal-slot/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/internal-slot/'
+2025-02-25 16:43:22.060 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/jsx-ast-utils/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/jsx-ast-utils/'
+2025-02-25 16:43:22.066 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/object.assign/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/object.assign/'
+2025-02-25 16:43:22.072 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/array-includes/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/array-includes/'
+2025-02-25 16:43:22.080 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/async-function/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/async-function/'
+2025-02-25 16:43:22.086 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/is-date-object/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/is-date-object/'
+2025-02-25 16:43:22.093 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/is-typed-array/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/is-typed-array/'
+2025-02-25 16:43:22.099 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/object-inspect/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/object-inspect/'
+2025-02-25 16:43:22.106 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/es-object-atoms/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/es-object-atoms/'
+2025-02-25 16:43:22.112 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/es-to-primitive/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/es-to-primitive/'
+2025-02-25 16:43:22.119 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/has-tostringtag/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/has-tostringtag/'
+2025-02-25 16:43:22.126 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/is-array-buffer/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/is-array-buffer/'
+2025-02-25 16:43:22.133 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/math-intrinsics/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/math-intrinsics/'
+2025-02-25 16:43:22.140 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/safe-push-apply/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/safe-push-apply/'
+2025-02-25 16:43:22.147 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/safe-regex-test/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/safe-regex-test/'
+2025-02-25 16:43:22.155 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/unbox-primitive/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/unbox-primitive/'
+2025-02-25 16:43:22.162 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/data-view-buffer/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/data-view-buffer/'
+2025-02-25 16:43:22.168 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/is-number-object/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/is-number-object/'
+2025-02-25 16:43:22.174 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/side-channel-map/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/side-channel-map/'
+2025-02-25 16:43:22.180 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/which-collection/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/which-collection/'
+2025-02-25 16:43:22.186 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/define-properties/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/define-properties/'
+2025-02-25 16:43:22.193 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/is-boolean-object/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/is-boolean-object/'
+2025-02-25 16:43:22.199 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/safe-array-concat/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/safe-array-concat/'
+2025-02-25 16:43:22.205 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/set-function-name/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/set-function-name/'
+2025-02-25 16:43:22.211 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/side-channel-list/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/side-channel-list/'
+2025-02-25 16:43:22.217 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/which-typed-array/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/which-typed-array/'
+2025-02-25 16:43:22.224 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/es-define-property/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/es-define-property/'
+2025-02-25 16:43:22.231 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/iterator.prototype/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/iterator.prototype/'
+2025-02-25 16:43:22.237 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/typed-array-buffer/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/typed-array-buffer/'
+2025-02-25 16:43:22.244 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/typed-array-length/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/typed-array-length/'
+2025-02-25 16:43:22.250 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/es-iterator-helpers/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/es-iterator-helpers/'
+2025-02-25 16:43:22.257 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/es-shim-unscopables/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/es-shim-unscopables/'
+2025-02-25 16:43:22.263 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/set-function-length/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/set-function-length/'
+2025-02-25 16:43:22.269 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/array.prototype.flat/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/array.prototype.flat/'
+2025-02-25 16:43:22.275 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/define-data-property/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/define-data-property/'
+2025-02-25 16:43:22.282 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/functions-have-names/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/functions-have-names/'
+2025-02-25 16:43:22.288 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/side-channel-weakmap/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/side-channel-weakmap/'
+2025-02-25 16:43:22.296 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/data-view-byte-length/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/data-view-byte-length/'
+2025-02-25 16:43:22.303 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/data-view-byte-offset/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/data-view-byte-offset/'
+2025-02-25 16:43:22.312 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/which-boxed-primitive/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/which-boxed-primitive/'
+2025-02-25 16:43:22.318 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/available-typed-arrays/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/available-typed-arrays/'
+2025-02-25 16:43:22.324 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/get-symbol-description/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/get-symbol-description/'
+2025-02-25 16:43:22.331 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/is-shared-array-buffer/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/is-shared-array-buffer/'
+2025-02-25 16:43:22.337 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/array.prototype.flatmap/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/array.prototype.flatmap/'
+2025-02-25 16:43:22.343 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/call-bind-apply-helpers/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/call-bind-apply-helpers/'
+2025-02-25 16:43:22.350 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/function.prototype.name/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/function.prototype.name/'
+2025-02-25 16:43:22.356 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/is-finalizationregistry/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/is-finalizationregistry/'
+2025-02-25 16:43:22.363 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/typed-array-byte-length/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/typed-array-byte-length/'
+2025-02-25 16:43:22.369 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/typed-array-byte-offset/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/typed-array-byte-offset/'
+2025-02-25 16:43:22.376 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/array-buffer-byte-length/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/array-buffer-byte-length/'
+2025-02-25 16:43:22.385 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/array.prototype.findlast/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/array.prototype.findlast/'
+2025-02-25 16:43:22.391 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/array.prototype.tosorted/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/array.prototype.tosorted/'
+2025-02-25 16:43:22.398 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/has-property-descriptors/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/has-property-descriptors/'
+2025-02-25 16:43:22.405 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/string.prototype.matchall/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/string.prototype.matchall/'
+2025-02-25 16:43:22.412 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/fast-json-stable-stringify/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/fast-json-stable-stringify/'
+2025-02-25 16:43:22.419 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mihir_patnaik/node_modules/possible-typed-array-names/". Error:Error: ENOENT: no such file or directory, realpath '/home/mihir_patnaik/node_modules/possible-typed-array-names/'
+2025-02-25 16:52:06.897 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 16:52:06.897 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:52:06.905 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:52:06.905 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:52:06.913 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:52:06.913 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:52:06.921 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:52:06.921 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:52:06.929 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:52:06.929 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:52:06.937 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:52:06.937 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 16:52:06.945 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 16:52:06.945 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

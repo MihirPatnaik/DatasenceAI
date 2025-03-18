@@ -1,0 +1,70 @@
+npm error code EJSONPARSE
+npm error path /home/mihir_patnaik/package.json
+npm error JSON.parse Expected double-quoted property name in JSON at position 463 (line 20 column 33) while parsing near "...react\": \"^0.476.0\", // Updated to latest..."
+npm error JSON.parse Failed to parse JSON data.
+npm error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+npm error A complete log of this run can be found in: /home/mihir_patnaik/.npm/_logs/2025-02-25T16_30_48_228Z-debug-0.log
+[Warn  - 4:30:49 PM] Component Analysis Error: Error: Command failed: npm i --package-lock-only --prefix /home/mihir_patnaik
+npm error code EJSONPARSE
+npm error path /home/mihir_patnaik/package.json
+npm error JSON.parse Expected double-quoted property name in JSON at position 463 (line 20 column 33) while parsing near "...react\": \"^0.476.0\", // Updated to latest..."
+npm error JSON.parse Failed to parse JSON data.
+npm error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+npm error A complete log of this run can be found in: /home/mihir_patnaik/.npm/_logs/2025-02-25T16_30_48_228Z-debug-0.log
+
+npm error code EJSONPARSE
+npm error path /home/mihir_patnaik/package.json
+npm error JSON.parse Unexpected non-whitespace character after JSON at position 9 (line 2 column 9) while parsing near "\n  \"name\": \"datasenceai\",\n  \"..."
+npm error JSON.parse Failed to parse JSON data.
+npm error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+npm error A complete log of this run can be found in: /home/mihir_patnaik/.npm/_logs/2025-02-25T16_36_37_056Z-debug-0.log
+[Warn  - 4:36:37 PM] Component Analysis Error: Error: Command failed: npm i --package-lock-only --prefix /home/mihir_patnaik
+npm error code EJSONPARSE
+npm error path /home/mihir_patnaik/package.json
+npm error JSON.parse Unexpected non-whitespace character after JSON at position 9 (line 2 column 9) while parsing near "\n  \"name\": \"datasenceai\",\n  \"..."
+npm error JSON.parse Failed to parse JSON data.
+npm error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+npm error A complete log of this run can be found in: /home/mihir_patnaik/.npm/_logs/2025-02-25T16_36_37_056Z-debug-0.log
+
+npm error code EJSONPARSE
+npm error path /home/mihir_patnaik/package.json
+npm error JSON.parse Unexpected non-whitespace character after JSON at position 9 (line 2 column 9) while parsing near "\n  \"name\": \"datasenceai\",\n  \"..."
+npm error JSON.parse Failed to parse JSON data.
+npm error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+npm error A complete log of this run can be found in: /home/mihir_patnaik/.npm/_logs/2025-02-25T16_36_47_422Z-debug-0.log
+[Warn  - 4:36:47 PM] Component Analysis Error: Error: Command failed: npm i --package-lock-only --prefix /home/mihir_patnaik
+npm error code EJSONPARSE
+npm error path /home/mihir_patnaik/package.json
+npm error JSON.parse Unexpected non-whitespace character after JSON at position 9 (line 2 column 9) while parsing near "\n  \"name\": \"datasenceai\",\n  \"..."
+npm error JSON.parse Failed to parse JSON data.
+npm error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+npm error A complete log of this run can be found in: /home/mihir_patnaik/.npm/_logs/2025-02-25T16_36_47_422Z-debug-0.log
+
+npm error code EJSONPARSE
+npm error path /home/mihir_patnaik/package.json
+npm error JSON.parse Unexpected non-whitespace character after JSON at position 9 (line 2 column 9) while parsing near "\n  \"name\": \"datasenceai\",\n  \"..."
+npm error JSON.parse Failed to parse JSON data.
+npm error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+npm error A complete log of this run can be found in: /home/mihir_patnaik/.npm/_logs/2025-02-25T16_37_19_269Z-debug-0.log
+[Warn  - 4:37:19 PM] Component Analysis Error: Error: Command failed: npm i --package-lock-only --prefix /home/mihir_patnaik
+npm error code EJSONPARSE
+npm error path /home/mihir_patnaik/package.json
+npm error JSON.parse Unexpected non-whitespace character after JSON at position 9 (line 2 column 9) while parsing near "\n  \"name\": \"datasenceai\",\n  \"..."
+npm error JSON.parse Failed to parse JSON data.
+npm error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+npm error A complete log of this run can be found in: /home/mihir_patnaik/.npm/_logs/2025-02-25T16_37_19_269Z-debug-0.log
+
+npm error code EJSONPARSE
+npm error path /home/mihir_patnaik/package.json
+npm error JSON.parse Unexpected non-whitespace character after JSON at position 9 (line 2 column 9) while parsing near "\n  \"name\": \"datasenceai\",\n  \"..."
+npm error JSON.parse Failed to parse JSON data.
+npm error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+npm error A complete log of this run can be found in: /home/mihir_patnaik/.npm/_logs/2025-02-25T16_38_51_126Z-debug-0.log
+[Warn  - 4:38:51 PM] Component Analysis Error: Error: Command failed: npm i --package-lock-only --prefix /home/mihir_patnaik
+npm error code EJSONPARSE
+npm error path /home/mihir_patnaik/package.json
+npm error JSON.parse Unexpected non-whitespace character after JSON at position 9 (line 2 column 9) while parsing near "\n  \"name\": \"datasenceai\",\n  \"..."
+npm error JSON.parse Failed to parse JSON data.
+npm error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+npm error A complete log of this run can be found in: /home/mihir_patnaik/.npm/_logs/2025-02-25T16_38_51_126Z-debug-0.log
+

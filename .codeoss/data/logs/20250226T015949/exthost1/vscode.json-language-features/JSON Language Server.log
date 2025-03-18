@@ -1,0 +1,9 @@
+2025-02-26 02:05:35.287 [info] read schema from vscode: vscode://schemas/vscode-extensions
+2025-02-26 02:05:35.579 [info] read schema from vscode: vscode://schemas/settings/configurationDefaults
+2025-02-26 02:05:36.040 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2025-02-26 02:05:36.061 [info] read schema from vscode: vscode://schemas/token-styling
+2025-02-26 02:05:36.062 [info] read schema from vscode: vscode://schemas/textmate-colors
+2025-02-26 02:05:36.063 [info] read schema from vscode: vscode://schemas/workbench-colors
+2025-02-26 02:16:52.467 [info] schema change detected vscode://schemas/settings/configurationDefaults
+2025-02-26 02:16:52.470 [info] read schema from vscode: vscode://schemas/vscode-extensions
+2025-02-26 02:16:52.667 [info] read schema from vscode: vscode://schemas/settings/configurationDefaults

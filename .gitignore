@@ -1,0 +1,21 @@
+# NPM cache and logs
+.npm/
+
+# System and tool configuration files
+.config/
+.docker/
+.gsutil/
+
+# Other existing ignores
+node_modules
+dist
+dist-ssr
+*.local
+.vscode/settings.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
