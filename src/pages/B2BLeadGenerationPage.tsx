@@ -145,9 +145,12 @@ const B2BLeadGenerationPage: React.FC = () => {
                 <span role="img" aria-label="megaphone">📢</span> Let’s Boost Your B2B Sales – Get a Free Consultation!
               </span>
             </div>
-            <button className="mt-6 bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-lg shadow-md text-lg transition-all">
+            <Link
+              to="/contact"
+              className="mt-6 bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-lg shadow-md text-lg transition-all"
+            >
               Get a Free AI Consultation
-            </button>
+            </Link>
           </div>
           <div className="mt-10 w-full max-w-3xl bg-blue-100 p-8 shadow-md rounded-lg text-center">
             <h2 className="text-xl font-bold mb-4 text-gray-900">Contact Us</h2>

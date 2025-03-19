@@ -4,8 +4,6 @@ import { Check, CheckCircle2, Database, Image, Video, Mic, MessageSquare, ArrowR
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar'; // Ensure this path is correct
 
-
-
 const AIDataLabelingPage: React.FC = () => {
   return (
     <div className="pt-20 pb-16">
@@ -34,7 +32,7 @@ const AIDataLabelingPage: React.FC = () => {
             {/* Glowing circle */}
             <div className="absolute top-1/4 left-1/4 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 rounded-full bg-light-blue/20 blur-2xl opacity-50 animate-pulse"></div>
           </motion.div>
-      </section>
+        </section>
         
         {/* Why Data Labeling Matters */}
         <section className="mb-16 bg-gradient-to-r from-light-blue/20 to-deep-blue/20 rounded-2xl p-8 shadow-md">
@@ -106,16 +104,6 @@ const AIDataLabelingPage: React.FC = () => {
               <h3 className="text-lg font-semibold text-deep-blue mb-2">Text Annotation</h3>
               <p className="text-black">Enhancing chatbots, sentiment analysis, and language models.</p>
             </motion.div>
-            {/*<motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.5 }}
-              {/*className="bg-light silver rounded-xl p-6 shadow-md border border-silver"*/}
-            {/*</motion.div>*/}
-              {/*<Video className="h-8 w-8 text-deep-blue mb-2" />*/}
-              {/*<h3 className="text-lg font-semibold text-deep-blue mb-2">Audio/Video Annotation</h3>*/}
-              {/*<p className="text-black">Training for voice assistants and video analytics.</p>*/}
-            
           </div>
         </section>
 
@@ -203,9 +191,12 @@ const AIDataLabelingPage: React.FC = () => {
                 <span role="img" aria-label="megaphone">📢</span> Let’s discuss your AI needs – Get a Free Consultation!
               </span>
             </div>
-            <button className="mt-6 bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-lg shadow-md text-lg transition-all">
+            <Link
+              to="/contact"
+              className="mt-6 bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-lg shadow-md text-lg transition-all"
+            >
               Get a Free AI Consultation
-            </button>
+            </Link>
           </div>
           <div className="mt-10 w-full max-w-3xl bg-blue-100 p-8 shadow-md rounded-lg text-center">
             <h2 className="text-xl font-bold mb-4 text-gray-900">Contact Us</h2>
@@ -218,34 +209,34 @@ const AIDataLabelingPage: React.FC = () => {
           </div>
         </div>
 
-             {/* Trust Signals Section (Updated to match HomePage style) */}
-                    <section className="py-20 bg-gradient-to-r from-deep-blue/0 to-deep-blue/0">
-                      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                        <h2 className="text-3xl font-extrabold text-deep-blue mb-8">
-                          Trusted by Leading Tech Companies
-                        </h2>
-                        <div className="flex flex-wrap justify-center gap-8 mt-8">
-                          <div className="p-4 bg-gradient-to-b from-light-blue/100 to-deep-blue/90 border-silver rounded-xl shadow-md">
-                            <div className="flex items-center gap-2">
-                              <Check className="h-6 w-6 text-green-500" />
-                              <span className="text-xl font-bold text-white">99.9% Lead Accuracy</span>
-                            </div>
-                          </div>
-                          <div className="p-4 bg-gradient-to-b from-light-blue/100 to-deep-blue/90 border-silver rounded-xl shadow-md">
-                            <div className="flex items-center gap-2">
-                              <Check className="h-6 w-6 text-green-500" />
-                              <span className="text-xl font-bold text-white">24/7 Support</span>
-                            </div>
-                          </div>
-                          <div className="p-4 bg-gradient-to-b from-light-blue/100 to-deep-blue/90 border-silver rounded-xl shadow-md">
-                            <div className="flex items-center gap-2">
-                              <Check className="h-6 w-6 text-green-500" />
-                              <span className="text-xl font-bold text-white">Enterprise-Grade Security</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </section>
+        {/* Trust Signals Section (Updated to match HomePage style) */}
+        <section className="py-20 bg-gradient-to-r from-deep-blue/0 to-deep-blue/0">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl font-extrabold text-deep-blue mb-8">
+              Trusted by Leading Tech Companies
+            </h2>
+            <div className="flex flex-wrap justify-center gap-8 mt-8">
+              <div className="p-4 bg-gradient-to-b from-light-blue/100 to-deep-blue/90 border-silver rounded-xl shadow-md">
+                <div className="flex items-center gap-2">
+                  <Check className="h-6 w-6 text-green-500" />
+                  <span className="text-xl font-bold text-white">99.9% Lead Accuracy</span>
+                </div>
+              </div>
+              <div className="p-4 bg-gradient-to-b from-light-blue/100 to-deep-blue/90 border-silver rounded-xl shadow-md">
+                <div className="flex items-center gap-2">
+                  <Check className="h-6 w-6 text-green-500" />
+                  <span className="text-xl font-bold text-white">24/7 Support</span>
+                </div>
+              </div>
+              <div className="p-4 bg-gradient-to-b from-light-blue/100 to-deep-blue/90 border-silver rounded-xl shadow-md">
+                <div className="flex items-center gap-2">
+                  <Check className="h-6 w-6 text-green-500" />
+                  <span className="text-xl font-bold text-white">Enterprise-Grade Security</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );

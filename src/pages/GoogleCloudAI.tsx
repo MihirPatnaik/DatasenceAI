@@ -59,15 +59,13 @@ const GoogleCloudAI: React.FC = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 whileHover={{ scale: 1.05, boxShadow: "0px 10px 20px rgba(0, 102, 255, 0.1)" }}
-                className="p-6 bg-white rounded-xl shadow-md hover:bg-[#E6F0FF] transition-all duration-200"
+                className="p-6 bg-light-gray rounded-xl shadow-md hover:bg-light-blue/10 transition-transform duration-150 ease-in-out"
               >
-                <Link to={service.path} className="block h-full">
-                  <div className="flex justify-center mb-4">
-                    <service.icon className="h-12 w-12 text-[#0066FF]" />
-                  </div>
-                  <h3 className="text-xl font-semibold text-[#0033A0] mb-2 text-center">{service.title}</h3>
-                  <p className="text-base font-normal text-[#1A2A44] text-center">{service.description}</p>
-                </Link>
+                <div className="flex justify-center mb-4">
+                  <service.icon className="h-12 w-12 text-[#0066FF]" />
+                </div>
+                <h3 className="text-xl font-semibold text-[#0033A0] mb-2 text-center">{service.title}</h3>
+                <p className="text-base font-normal text-[#1A2A44] text-center">{service.description}</p>
               </motion.div>
             ))}
           </div>

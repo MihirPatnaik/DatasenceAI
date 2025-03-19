@@ -42,7 +42,7 @@ const AboutPage: React.FC = () => {
             At DatasenceAI, we are committed to powering business growth through AI-driven automation, intelligent data solutions, and cutting-edge cloud innovation. Our mission is to empower organizations with smarter, faster, and more efficient ways to harness data, streamline operations, and unlock new opportunities. By leveraging advanced AI technologies and Google Cloud expertise, we deliver transformative solutions tailored to your unique needs—whether it’s through precise data labeling, impactful B2B lead generation, or seamless business automation.
           </p>
           <div className="text-center">
-            <Link to="/services" className="inline-flex items-center justify-center px-6 py-2 border border-transparent text-base font-medium rounded-md text-white bg-light-blue hover:bg-deep-blue">
+            <Link to="/pricing" className="inline-flex items-center justify-center px-6 py-2 border border-transparent text-base font-medium rounded-md text-white bg-light-blue hover:bg-deep-blue">
               Explore Our Solutions
             </Link>
           </div>
