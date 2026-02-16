@@ -8,12 +8,24 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "paths": {
+      "@utils/*": ["smartsocial/utils/*"],
+      "@agents/*": ["smartsocial/agents/*"],
+      "@server/*": ["server/*"]
+    },
+    "types": ["vite/client"],
+    
   },
-  "include": ["src"],
+  "include": [
+    "src",
+    "src/smartsocial/**/*",
+    "src/smartsocial/vite-env.d.ts"
+  ],
   "exclude": ["node_modules"]
 }

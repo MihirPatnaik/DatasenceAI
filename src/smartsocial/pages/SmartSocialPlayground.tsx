@@ -1,16 +1,16 @@
-// src/pages/smartsocial.tsx
+//D:\datasenceai\src\smartsocial\pages\NotFound.tsx
 
 import React, { useState } from "react";
 // Update the import path below if the file is not found at the alias location.
 // For example, if the file is at src/agents/captionAgent.ts, use:
 import { callCaptionAgent } from "@/smartsocial/agents/captionAgent";
+import { claudeDiagramAgent } from "@/smartsocial/agents/claudeDiagramAgent";
+import { callImageAgent } from "@/smartsocial/agents/imageAgent";
+import { optimizerAgent } from "@/smartsocial/agents/optimizerAgent";
 import { callPosterAgent } from "@/smartsocial/agents/posterAgent";
 import { callSafetyAgent } from "@/smartsocial/agents/safetyAgent";
 import { callVisionAgent } from "@/smartsocial/agents/visionAgent";
-import { callImageAgent } from "@/smartsocial/agents/imageAgent";
-import { optimizerAgent } from "@/smartsocial/agents/optimizerAgent";
-import { logToFirebase, checkFirebaseCache } from "@/smartsocial/utils/firebaseLogger";
-import { claudeDiagramAgent } from "@/smartsocial/agents/claudeDiagramAgent";
+import { checkFirebaseCache, logToFirebase } from "@/smartsocial/utils/firebaseLogger";
 import { getCachedResponse } from "@/smartsocial/utils/promptCache";
 
 
@@ -320,3 +320,10 @@ const SmartSocial = () => {
 };
 
 export default SmartSocial;
+
+
+
+
+
+
+

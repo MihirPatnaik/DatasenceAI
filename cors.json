@@ -1,0 +1,8 @@
+[
+  {
+    "origin": ["http://localhost:5173", "https://datasenceai.web.app", "https://datasenceai.firebaseapp.com"],
+    "method": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    "responseHeader": ["Content-Type", "x-goog-meta-*", "Authorization"],
+    "maxAgeSeconds": 3600
+  }
+]

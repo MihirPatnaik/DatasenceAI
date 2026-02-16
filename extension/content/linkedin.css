@@ -1,0 +1,69 @@
+/* You can keep styles in JS or create this file */
+/*D:\datasenceai\extension\content\linkedin.css*/
+
+/* extension/content/linkedin.css */
+.smartsocial-enhance-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 20px !important;
+  padding: 8px 16px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  font-size: 14px !important;
+  margin-top: 10px !important;
+  transition: transform 0.2s, box-shadow 0.2s !important;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, sans-serif !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
+
+.smartsocial-enhance-btn:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4) !important;
+}
+
+.smartsocial-enhance-btn:disabled {
+  opacity: 0.6 !important;
+  cursor: not-allowed !important;
+}
+
+.smartsocial-enhance-btn:active {
+  transform: translateY(0) !important;
+}
+
+/* Loading state */
+.smartsocial-enhance-btn.loading {
+  position: relative !important;
+  color: transparent !important;
+}
+
+.smartsocial-enhance-btn.loading::after {
+  content: '' !important;
+  position: absolute !important;
+  width: 16px !important;
+  height: 16px !important;
+  border: 2px solid rgba(255, 255, 255, 0.3) !important;
+  border-top-color: white !important;
+  border-radius: 50% !important;
+  animation: spin 0.8s linear infinite !important;
+  left: 50% !important;
+  top: 50% !important;
+  margin-left: -8px !important;
+  margin-top: -8px !important;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Success state */
+.smartsocial-enhance-btn.success {
+  background: linear-gradient(135deg, #10b981 0%, #34d399 100%) !important;
+}
+
+/* Error state */
+.smartsocial-enhance-btn.error {
+  background: linear-gradient(135deg, #ef4444 0%, #f87171 100%) !important;
+}

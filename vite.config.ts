@@ -1,4 +1,4 @@
-// D:\datasenceai\vite.config.ts
+// Vite configuration file: vite.config.ts
 
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
@@ -7,14 +7,15 @@ import autoprefixer from 'autoprefixer';
 import path from 'path';
 
 export default defineConfig({
-   base: "/smartsocial/", // ✅ important for correct asset URLs
-  plugins: [
-    react(),
-  ],
+  base: "/smartsocial/", // ✅ important for correct asset URLs
+  plugins: [react()],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'), // Existing alias for DatasenceAI
-      '@smartsocial': path.resolve(__dirname, 'src/smartsocial'), // ✅ New alias for SmartSocial
+      '@smartsocial': path.resolve(__dirname, 'src/smartsocial'), // ✅ SmartSocial alias
+      '@utils': path.resolve(__dirname, 'src/smartsocial/utils'), // ✅ add this
+      '@agents': path.resolve(__dirname, 'src/smartsocial/agents'), // ✅ optional: match tsconfig
+      '@server': path.resolve(__dirname, 'src/smartsocial/server'), // ✅ optional: match tsconfig
     },
   },
   build: {

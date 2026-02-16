@@ -1,19 +1,21 @@
+//datasenceai/src/App.tsx
+
 import React, { useEffect, useState } from "react";
-import { Routes, Route, useLocation } from "react-router-dom";
-import Layout from "./pages/Layout";
-import Footer from "./components/Footer";
+import { Route, Routes, useLocation } from "react-router-dom";
 import CookieBanner from "./components/CookieBanner";
-import HomePage from "./pages/HomePage";
-import ServicesPage from "./pages/ServicesPage";
-import PricingPage from "./pages/PricingPage";
+import Footer from "./components/Footer";
 import AboutPage from "./pages/AboutPage";
-import BlogPage from "./pages/BlogPage";
-import ContactPage from "./pages/ContactPage";
 import AIDataLabelingPage from "./pages/AIDataLabelingPage";
 import B2BLeadGenerationPage from "./pages/B2BLeadGenerationPage";
+import BlogPage from "./pages/BlogPage";
 import BusinessAutomationPage from "./pages/BusinessAutomationPage";
+import ContactPage from "./pages/ContactPage";
 import GoogleCloudAI from "./pages/GoogleCloudAI";
+import HomePage from "./pages/HomePage";
+import Layout from "./pages/Layout";
+import PricingPage from "./pages/PricingPage";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import ServicesPage from "./pages/ServicesPage";
 
 const ScrollToTop: React.FC = () => {
   const { pathname } = useLocation();

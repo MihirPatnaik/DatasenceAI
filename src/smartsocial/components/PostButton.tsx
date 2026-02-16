@@ -1,3 +1,6 @@
+//src/smartsocial/components/PostButton.tsx
+
+
 export default function PostButton({
   imageUrl,
   caption,

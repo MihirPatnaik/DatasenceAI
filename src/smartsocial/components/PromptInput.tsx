@@ -2,7 +2,7 @@
 
 
 import { useState } from "react";
-import { enhancePrompt } from "../agents/promptEnhancerAgent";
+import { enhancePrompt } from "../server/agents/promptEnhancerAgent";
 
 export default function PromptInput({
   prompt,

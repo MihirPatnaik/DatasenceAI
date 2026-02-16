@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HIV Biometric Tracker Proposal</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+    font-family:'Inter', sans-serif;
+    line-height:1.4;
+    color:#333;
+    background:#f0f2f5;
+    padding:15px;
+    font-size:12px; /* smaller font for PDF fit */
+}
+.container {
+    max-width:900px;
+    margin:0 auto;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+.header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color:white;
+    padding:30px;
+    text-align:center;
+}
+.header h1 { font-size:2em; margin-bottom:5px; }
+.header p { font-size:1em; opacity:0.9; }
+
+.content { padding:20px; }
+
+.section { margin-bottom:25px; padding:15px; border-radius:10px; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
+.section h2 { font-size:1.4em; margin-bottom:10px; color:#667eea; border-bottom:2px solid #667eea; padding-bottom:5px; }
+
+.usp-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:15px; margin-top:10px; }
+.usp-item { background:white; padding:10px; border-left:4px solid #667eea; border-radius:8px; }
+.usp-item h3 { color:#764ba2; margin-bottom:5px; font-size:1em; }
+
+table {
+    width:100%;
+    border-collapse:collapse;
+    table-layout:fixed; /* prevent overflow */
+    word-break:break-word;
+    margin:10px 0;
+}
+th, td { padding:8px; border-bottom:1px solid #eee; word-break:break-word; overflow-wrap:break-word; }
+th { background:linear-gradient(135deg,#667eea 0%,#764ba2 100%); color:white; font-weight:600; font-size:0.95em; }
+tr:nth-child(even){ background:#f8f9ff; }
+tr:hover{ background:#e8f2ff; transition:background 0.3s ease; }
+.total-row { background:linear-gradient(135deg,#ffeaa7 0%,#fab1a0 100%) !important; font-weight:bold; }
+.total-row td { border-bottom:none; }
+
+.phase-container { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:15px; margin-top:10px; }
+.phase { background:white; padding:15px; border-radius:10px; text-align:center; border-top:5px solid; }
+.phase h3 { margin-bottom:10px; font-size:1.1em; }
+
+.notes-section { padding:15px; border-radius:10px; margin-top:10px; }
+.note-item { background:rgba(255,255,255,0.85); padding:8px; border-radius:6px; border-left:4px solid #e17055; margin-bottom:5px; }
+
+.badge { display:inline-block; background:linear-gradient(135deg,#00b894 0%,#00cec9 100%); color:white; padding:3px 10px; border-radius:15px; font-size:0.8em; margin-top:5px; }
+
+@media print {
+    body { background:white; padding:0; width:210mm; }
+    .container { box-shadow:none; }
+    .section, .phase { page-break-inside:avoid; }
+    table, tr, td, th { page-break-inside:avoid; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>🔒 Offline-First HIV Injection Tracker</h1>
+        <p>Hybrid Biometrics (Face + Fingerprint) Proposal</p>
+    </div>
+
+    <div class="content">
+
+        <!-- Section 1: USP -->
+        <div class="section">
+            <h2>1. Unique Selling Propositions (USP)</h2>
+            <div class="usp-grid">
+                <div class="usp-item">
+                    <h3>🔐 Hybrid Biometric Support</h3>
+                    Facial Recognition (via Android camera + clinic PC webcam), Fingerprint (Android sensor or optional external fingerprint scanner)
+                </div>
+                <div class="usp-item">
+                    <h3>📱 Offline-First Design</h3>
+                    Fully functional without internet, auto-syncs when connectivity is available
+                </div>
+                <div class="usp-item">
+                    <h3>💻 Device Compatibility</h3>
+                    Minimum Android 8.0, Webcam support for PC/laptops
+                </div>
+                <div class="usp-item">
+                    <h3>🏥 HIV-Focused Dashboard</h3>
+                    Tracks Last Injection Date, Next Due, Current Medication, Missed Dose Alerts
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2: Basic Package -->
+        <div class="section">
+            <h2>2. Quotation - Prototype (Without External Fingerprint Device)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Description</th>
+                        <th>Price (USD)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Software Development & Customization</td>
+                        <td>Android + PC/Web Dashboard + Offline DB + Facial Recognition</td>
+                        <td>$2,000</td>
+                    </tr>
+                    <tr>
+                        <td>Implementation & Training</td>
+                        <td>Clinic deployment + nurse training</td>
+                        <td>$500</td>
+                    </tr>
+                    <tr>
+                        <td>Hosting & Database Setup (1 Year)</td>
+                        <td>Offline-first local DB with optional cloud sync</td>
+                        <td>$500</td>
+                    </tr>
+                    <tr>
+                        <td>Miscellaneous / Contingency</td>
+                        <td>Testing, QA, documentation</td>
+                        <td>$500</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td>Total Quotation (Clinic License)</td>
+                        <td></td>
+                        <td>$3,500</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Section 3: Enhanced Package -->
+        <div class="section">
+            <h2>3. Quotation - Prototype (With External Fingerprint Device)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Description</th>
+                        <th>Price (USD)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Software Development & Customization</td>
+                        <td>Android + PC/Web Dashboard + Offline DB + Facial + Fingerprint</td>
+                        <td>$2,200</td>
+                    </tr>
+                    <tr>
+                        <td>Implementation & Training</td>
+                        <td>Clinic deployment + nurse training</td>
+                        <td>$500</td>
+                    </tr>
+                    <tr>
+                        <td>Hosting & Database Setup (1 Year)</td>
+                        <td>Offline-first local DB with optional cloud sync</td>
+                        <td>$500</td>
+                    </tr>
+                    <tr>
+                        <td>External Fingerprint Device</td>
+                        <td>Mantra MFS100 / Futronic FS80 + shipping & taxes</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>Miscellaneous / Contingency</td>
+                        <td>Testing, QA, documentation</td>
+                        <td>$500</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td>Total Quotation (Clinic License)</td>
+                        <td></td>
+                        <td>$3,800</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Section 4: Technical Specifications -->
+        <div class="section">
+            <h2>4. Technical Specifications & Notes</h2>
+            <div class="notes-section">
+                <div class="note-item"><strong>Android Version:</strong> Minimum Android 8.0 (Oreo)</div>
+                <div class="note-item"><strong>PC Requirements:</strong> Webcam support for facial recognition</div>
+                <div class="note-item"><strong>Connectivity:</strong> Offline-first architecture with optional cloud sync</div>
+            </div>
+
+            <div class="notes-section" style="background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%); color:white;">
+                <div class="note-item" style="background: rgba(255,255,255,0.9); color:#333;"><strong>✅ Complete offline support</strong> for uninterrupted operations</div>
+                <div class="note-item" style="background: rgba(255,255,255,0.9); color:#333;"><strong>✅ External webcam support</strong> for clinic PC deployment</div>
+                <div class="note-item" style="background: rgba(255,255,255,0.9); color:#333;"><strong>✅ Comprehensive training</strong> and implementation support</div>
+                <div class="note-item" style="background: rgba(255,255,255,0.9); color:#333;"><strong>✅ One year hosting</strong> and database maintenance included</div>
+            </div>
+
+            <div class="notes-section" style="background: linear-gradient(135deg, #fd79a8 0%, #e84393 100%); color:white;">
+                <div class="note-item" style="background: rgba(255,255,255,0.9); color:#333;"><strong>🔧 Fingerprint Enhancement:</strong> Optional external device for higher accuracy</div>
+                <div class="note-item" style="background: rgba(255,255,255,0.9); color:#333;"><strong>📅 Quotation Validity:</strong> 3 months from issue date</div>
+                <div class="note-item" style="background: rgba(255,255,255,0.9); color:#333;"><strong>💰 Recurring Costs:</strong> $30/month per clinic (after first year)</div>
+            </div>
+        </div>
+
+        <!-- Section 5: Recommended Pilot Strategy -->
+        <div class="section">
+            <h2>5. Recommended Pilot Strategy</h2>
+            <div class="phase-container">
+                <div class="phase" style="border-top-color:#00b894;">
+                    <h3>Phase 1: Clinic Setup</h3>
+                    Install software, setup DB, train nurse & admin
+                </div>
+                <div class="phase" style="border-top-color:#0984e3;">
+                    <h3>Phase 2: Pilot Operations</h3>
+                    Track patient injections, test offline sync
+                </div>
+                <div class="phase" style="border-top-color:#d63031;">
+                    <h3>Phase 3: Review & Feedback</h3>
+                    Collect user feedback, optimize workflow
+                </div>
+                <div class="phase" style="border-top-color:#6c5ce7;">
+                    <h3>Phase 4: Full Rollout</h3>
+                    Deploy across all clinics, provide support
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

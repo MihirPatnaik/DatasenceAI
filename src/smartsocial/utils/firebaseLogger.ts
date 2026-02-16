@@ -1,40 +1,36 @@
 // src/utils/firebaseLogger.ts
 
-import { initializeApp } from 'firebase/app';
 import {
-  getFirestore,
-  collection,
   addDoc,
-  serverTimestamp,
+  collection,
+  doc,
+  getDoc,
   getDocs,
   query,
-  where,
-  doc,
+  serverTimestamp,
   setDoc,
-  getDoc
-} from 'firebase/firestore';
+  where
+} from "firebase/firestore";
+import { db } from "./firebase";
 
-// ✅ Firebase config
-const firebaseConfig = {
-  apiKey: "AIzaSyAnGmY0oC9SxxoRXU0rra4P9CDXwKSTYJc",
-  authDomain: "datasenceai-c4e5f.firebaseapp.com",
-  projectId: "datasenceai-c4e5f",
-  storageBucket: "datasenceai-c4e5f.firebasestorage.app",
-  messagingSenderId: "356206907698",
-  appId: "1:356206907698:web:59314d156854ebff26c72b",
-};
-
-const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
-
-//
-// 🔄 LOG GENERAL AGENT OUTPUT
-//
-export const logToFirebase = async (logData: {
+/**
+ * Agent log base shape.
+ * `prompt` is required. Other fields (caption, status, modelUsed, tokensUsed, idempotencyKey, etc.)
+ * are optional and any additional metadata is allowed.
+ */
+export interface AgentLogBase {
   prompt: string;
-  caption: string;
-  status: string;
-}) => {
+  caption?: string | null;
+  status?: string;
+  timestamp?: any;
+  [key: string]: any;
+}
+
+/**
+ * Core logger implementation (internal).
+ * Accepts flexible metadata so callers can include modelUsed, tokensUsed, idempotencyKey, etc.
+ */
+const _logToFirebase = async (logData: AgentLogBase) => {
   try {
     await addDoc(collection(db, "agent_logs"), {
       ...logData,
@@ -44,6 +40,16 @@ export const logToFirebase = async (logData: {
     console.error("🔥 Firebase log failed:", error);
   }
 };
+
+/**
+ * Public exports:
+ * - logToFirebase (legacy name so existing callsites keep working)
+ * - logAgentToFirebase (explicit new name to avoid collisions)
+ *
+ * Both reference the same implementation.
+ */
+export const logToFirebase = _logToFirebase;
+export const logAgentToFirebase = _logToFirebase;
 
 //
 // 🔍 CHECK PROMPT-BASED CACHE
@@ -62,8 +68,9 @@ export const checkFirebaseCache = async (
     const snapshot = await getDocs(q);
 
     if (!snapshot.empty) {
-      const doc = snapshot.docs[0];
-      return doc.data().caption;
+      const firstDoc = snapshot.docs[0];
+      const maybeCaption = firstDoc.data()?.caption;
+      return typeof maybeCaption === "string" ? maybeCaption : null;
     }
     return null;
   } catch (error) {
@@ -81,7 +88,8 @@ export const getCachedSVG = async (prompt: string): Promise<string | null> => {
     const docSnap = await getDoc(docRef);
 
     if (docSnap.exists()) {
-      return docSnap.data().svg || null;
+      const data = docSnap.data();
+      return typeof data?.svg === "string" ? data.svg : null;
     }
     return null;
   } catch (error) {

@@ -1,9 +1,10 @@
 // File: src/agents/optimizerAgent.ts
+
 import OpenAI from 'openai';
 import { ChatCompletionMessageParam } from 'openai/resources/index.mjs';
 
 // ✅ FIXED for Vite
-const OPTIMIZER_API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
+const OPTIMIZER_API_KEY = import.meta.env.VITE_OPENAI_KEY_SMARTSOCIAL;
 
 const openai = new OpenAI({
   apiKey: import.meta.env.VITE_OPENAI_KEY_SMARTSOCIAL,

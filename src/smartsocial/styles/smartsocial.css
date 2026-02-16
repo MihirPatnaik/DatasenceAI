@@ -1,3 +1,20 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/*D:\datasenceai\src\smartsocial\styles\smartsocial.css*/
+
+/* 🌐 Global scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px; /* for horizontal scrollbars if any */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #b0b0b0;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #888;
+}

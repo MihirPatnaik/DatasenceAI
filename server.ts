@@ -3,7 +3,7 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import bodyParser from 'body-parser';
-import claudeProxy from './src/smartsocial/server/claudeProxy';
+import claudeProxy from './src/smartsocial/server/agents/claudeProxy';
 
 dotenv.config();
 

@@ -1,34 +1,67 @@
-import { Routes, Route } from "react-router-dom";
+// src/smartsocial/App.tsx
+
 import { useState } from "react";
+import { Route, Routes } from "react-router-dom";
 import ImagePreview from "./components/ImagePreview";
-import { Toaster } from "./components/ui/toaster"; // ✅ import toaster
+import QuotaBar from "./components/QuotaBar";
+import ScrollToTop from "./components/ScrollToTop";
+import { useCriticalPreload } from "./hooks/usePreload";
+import OnboardingRoutes from "./pages/onboarding";
+import "./styles/smartsocial.css";
+import { auth } from "./utils/firebase";
+
+interface PlaygroundState {
+  prompt: string;
+  enhancedPrompt: string;
+  imageUrl: string;
+  caption: string;
+  hashtags: string;
+}
 
 export default function App() {
-  const [prompt, setPrompt] = useState("");
-  const [enhancedPrompt, setEnhancedPrompt] = useState("");
-  const [imageUrl, setImageUrl] = useState("");
-  const [caption, setCaption] = useState("");
-  const [hashtags, setHashtags] = useState("");
+  useCriticalPreload();
+
+  const [playgroundState, setPlaygroundState] = useState<PlaygroundState>({
+    prompt: "",
+    enhancedPrompt: "",
+    imageUrl: "",
+    caption: "",
+    hashtags: "",
+  });
+
+  const userId = auth.currentUser?.uid || null;
+
+  const handleStateUpdate = (updates: Partial<PlaygroundState>): void => {
+    setPlaygroundState((prev) => ({ ...prev, ...updates }));
+  };
+
+  const handleBack = (): void => console.log("Back clicked");
+  const handlePreviewConfirm = (): void => console.log("Preview confirmed");
 
   return (
     <>
-      {/* ✅ Provide toast context to everything inside */}
-      <Toaster />
+      <ScrollToTop />
+      <OnboardingRoutes />
 
       <Routes>
         <Route
-          path="/"
+          path="/playground"
           element={
-            <ImagePreview
-              prompt={prompt}
-              enhancedPrompt={enhancedPrompt}
-              imageUrl={imageUrl}
-              setImageUrl={setImageUrl}
-              setCaption={setCaption}
-              setHashtags={setHashtags}
-              onBack={() => console.log("Back clicked")}
-              onNext={() => console.log("Next clicked")}
-            />
+            <div className="space-y-4 p-4">
+              <ImagePreview
+                prompt={playgroundState.prompt}
+                enhancedPrompt={playgroundState.enhancedPrompt}
+                imageUrl={playgroundState.imageUrl}
+                caption={playgroundState.caption}
+                hashtags={playgroundState.hashtags}
+                setImageUrl={(url: string) => handleStateUpdate({ imageUrl: url })}
+                setCaption={(caption: string) => handleStateUpdate({ caption })}
+                setHashtags={(hashtags: string) => handleStateUpdate({ hashtags })}
+                onBack={handleBack}
+                onPreviewConfirm={handlePreviewConfirm}
+              />
+              {userId && <QuotaBar userId={userId} />}
+            </div>
           }
         />
       </Routes>

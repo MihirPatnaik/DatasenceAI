@@ -1,0 +1,110 @@
+{
+  "manifest_version": 3,
+  "name": "SmartSocial AI Assistant",
+  "version": "1.0.0",
+  "description": "AI-powered social media assistant with Phantom Fill for LinkedIn",
+  "author": "DataSenceAI",
+  "homepage_url": "https://datasenceai.com",
+  
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "notifications"
+  ],
+  
+  "host_permissions": [
+    "https://*.linkedin.com/*",
+    "https://*.twitter.com/*",
+    "https://*.x.com/*",
+    "https://*.facebook.com/*",
+    "https://datasenceai.com/*",
+    "http://localhost:5173/*",
+    "http://localhost:3000/*"
+  ],
+  
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.linkedin.com/*",
+        "https://linkedin.com/*"
+      ],
+      "js": ["content/linkedin.js"],
+      "run_at": "document_start",
+      "css": ["content/linkedin.css"]
+    },
+    {
+      "matches": [
+        "https://*.twitter.com/*",
+        "https://twitter.com/*",
+        "https://*.x.com/*",
+        "https://x.com/*"
+      ],
+      "js": ["content/twitter.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://*.facebook.com/*",
+        "https://facebook.com/*"
+      ],
+      "js": ["content/facebook.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "SmartSocial AI",
+    "default_icon": {
+      "16": "assets/icon16.png",
+      "48": "assets/icon48.png",
+      "128": "assets/icon128.png"
+    }
+  },
+  
+  "icons": {
+    "16": "assets/icon16.png",
+    "32": "assets/icon32.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  },
+  
+  "oauth2": {
+    "client_id": "875120872688-nfd7mauvkh9dc8jre957m1tgukuqtrhg.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.email",
+      "https://www.googleapis.com/auth/userinfo.profile"
+    ]
+  },
+  
+  "web_accessible_resources": [{
+    "resources": [
+      "assets/*",
+      "oauth/*",
+      "content/*.css"
+    ],
+    "matches": [
+      "https://*.linkedin.com/*",
+      "https://*.twitter.com/*",
+      "https://*.facebook.com/*"
+    ]
+  }],
+  
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-inline'"
+  },
+  
+  "externally_connectable": {
+    "matches": [
+      "https://datasenceai.com/*",
+      "http://localhost:5173/*",
+      "http://localhost:3000/*"
+    ]
+  }
+}
